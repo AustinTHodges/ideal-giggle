@@ -1,0 +1,202 @@
+/* answer for Exercise 1
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  }
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative; 
+  top: 50px; 
+  left: 50px;
+
+} 
+Struggled to come up witht the answer but im very good at guessing and learning afterwards. I was able to plug some of the numbers in and realized after that i made each div relative to the previous div.
+Any suggestions or comments would be greatly appreciated!*/
+
+/* Answer for Exercise 2
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  }
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 92%;
+} 
+struggled with this one and did some research. I wanted to make .four relative to the <body> but wasnt sure how to. I was figuring, if i could do that i could set it to be 100% and it would move it to the edge of the black box. Looking at the answer key though i see i WAY overthought it. */
+
+/* Answer for Exercise 3
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  }
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  top: 100px;
+  left: 100px;
+} 
+I continue to plug in px numbers until it looks like what i want. this one wasnt so bad though. I wanted .four to be relative to .three*/
+
+/* Answer for exercise 4
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  }
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: -100px;
+  right: 200px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+I felt this one went more smoothly, admittadly i took a couple of days off (personal issues) and coming back rewatching the videos helped me get through this one quicker and easier. */
+
+/* Excercise 5 */
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: static;
+  top: 0%;
+  left: 0%;
+  }
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  bottom: 100%;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  right: 527%;
+  bottom: 88.6%;
+}
