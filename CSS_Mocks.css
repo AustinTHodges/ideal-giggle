@@ -1,0 +1,93 @@
+/* Mock 1 */
+.button {
+background-color: rgb(107, 150, 255);
+border: none;
+border-radius: 4px;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+padding: 10px;
+transition-duration: 4ms;
+}
+
+.button:hover {
+    background-color: rgb(51, 71, 124);
+}
+
+/* Mock 2 */
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px rgba(0,0, 0, 0.2);
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(211, 211, 211, 0.356);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px
+}
+
+.card h2 {
+    padding-left: 20px;
+}
+.card p {
+    padding: 20px;
+}
+
+/* Mock 3 */
+
+.gif-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.gif {
+    position: relative;
+    width: 200px;
+    background-color: bisque;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.gif img {
+    width: 95%;
+    height: 95%;
+    display: block;
+    border-radius: 10px;
+}
+
+.gif-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.gif:hover .gif-overlay {
+    opacity: 1;
+}
+
+.gif-overlay-text {
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
